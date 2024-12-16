@@ -1,0 +1,23 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.feed_board {
+  background-color: aquamarine;
+  height: 400px;
+  width: 400px;
+}
+.story_board {
+  background-color: red;
+  height: 100px;
+  width: 400px;
+}
+.nav {
+}
+.follow_section {
+  background-color: yellow;
+  height: 300px;
+  width: 400px;
+}
