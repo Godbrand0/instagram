@@ -1,8 +1,53 @@
+.App {
+  margin: 0 auto;
+  width: 1400px;
+}
 .body {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  width: 700px;
+  background-color: gainsboro;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  height: 64px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.nav_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10px auto;
+}
+.nav_input {
+  width: 278px;
+  height: 36px;
+  background-color: #efefef;
+  border-radius: 7px;
+}
+.nav_input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #efefef;
+  border-radius: 7px;
+  padding: 4px 10px;
+}
+.nav_input input::placeholder {
+  color: #999595;
 }
 .feed_board {
   background-color: aquamarine;
@@ -13,8 +58,6 @@
   background-color: red;
   height: 100px;
   width: 400px;
-}
-.nav {
 }
 .follow_section {
   background-color: yellow;
