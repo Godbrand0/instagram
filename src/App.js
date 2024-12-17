@@ -6,7 +6,7 @@ import StoryBoard from "./components/StoryBoard";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <div className="body">
         <div>
