@@ -44,9 +44,10 @@
   border: none;
   background-color: #efefef;
   border-radius: 7px;
+  padding: 4px 10px;
 }
 .nav_input input::placeholder {
-  color: #efefef;
+  color: #999595;
 }
 .feed_board {
   background-color: aquamarine;
