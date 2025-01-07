@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  width: 700px;
+  height: 100vh;
   background-color: gainsboro;
   margin: 0 auto;
 }
@@ -54,9 +54,8 @@
   height: 400px;
   width: 400px;
 }
-  
-.follow_section {
+
   background-color: yellow;
-  height: 300px;
-  width: 400px;
+  height: 40rem;
+  width: 40rem;
 }
