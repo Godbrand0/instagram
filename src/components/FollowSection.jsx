@@ -16,7 +16,8 @@ export default function FollowSection({ username = "mediamodifier" }) {
   const [error, setError] = useState(null);
   const [suggestions, setSuggestions] = useState([]);
 
-  const proxyUrl = "http://localhost:3000/fetch"; // Your proxy server URL
+  // Using a proxy server because of CORS issues on loading the image
+  const proxyUrl = "http://localhost:3000/fetch"; // proxy server URL
 
   useEffect(() => {
     const fetchData = async () => {
