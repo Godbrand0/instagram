@@ -48,7 +48,6 @@ export default function StoryBoard() {
           <div className="gradient-border">
             <div className="profile">
               <img className="profile-image" src={profileItem.image} alt=""/>
-
               <p className="profile-name">{profileItem.name}</p>
             </div>
           </div>
@@ -56,9 +55,12 @@ export default function StoryBoard() {
         </div>
       );
     });
+    
   }
+  
   return <div className="story_board">
     {Profile()}
     {ImageScroll()}
   </div>;
 }
+
