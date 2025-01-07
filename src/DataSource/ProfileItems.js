@@ -1,8 +1,10 @@
-import Profile from '../assets/Profile-Pic-S.png';
-import Follower1 from '../assets/model (1).jpg';
-import Follower2 from '../assets/model (2).jpg';
-import Follower3 from '../assets/model(3).jpg';
-import Follower4 from '../assets/model(4).jpg';
+
+import Profile from "../assets/Profile-Pic-S.png";
+import Follower1 from "../assets/model (1).jpg";
+import Follower2 from "../assets/model (2).jpg";
+import Follower3 from "../assets/model(3).jpg";
+import Follower4 from "../assets/model(4).jpg";
+
 
 const profileItems = [
   {

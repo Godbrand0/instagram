@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import StoryBoard from "./components/StoryBoard";
 import Profile from "./assets/Profile-Pic-S.png";
 
+
 function App() {
  
   return (
