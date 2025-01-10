@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "../App.css";
 import "../components/storyboard.css";
-import NavBar from "./NavBar";
 import ScrollArrow from "../assets/ScrollArrow.png";
 
 export default function StoryBoard() {
@@ -119,7 +118,6 @@ export default function StoryBoard() {
 
   return (
     <div>
-      {/* <NavBar /> */}
       <div className="story_board">
         <Profile />
         <ImageScroll />
