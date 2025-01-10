@@ -1,22 +1,20 @@
 import "./App.css";
-import './components/storyboard.css';
-import Feed from "./components/Feed";
+import "./components/storyboard.css";
+
 import FollowSection from "./components/FollowSection";
 import NavBar from "./components/NavBar";
 import Story from "./components/Story";
 
-import Profile from "./assets/Profile-Pic-S.png";
-
+import Posts from "./components/Posts";
 
 function App() {
- 
   return (
     <div className="App">
       <NavBar />
       <div className="body">
         <div className="storyboard-contain">
           <Story />
-          <Feed />
+          <Posts />
         </div>
 
         <FollowSection />
