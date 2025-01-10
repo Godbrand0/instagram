@@ -168,8 +168,45 @@
   line-height: 16px;
   color: #b3dbff;
   text-transform: uppercase;
+
+  }
+
+
+@media (min-width: 420px) {
+  .App {
+    display: none;
+
+  }
 }
 
 @media (max-width: 768px) {
-  .App {}
+  .App {
+    width: 100vw;
+    padding: 10px;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .follow {
+    display: none;
+  }
+  .footer {
+    display: block;
+  }
+  .header {
+    display: flex;
+  }
+  .story_board {
+    width: 330px;
+  }
+  .story_left img {
+    top: 84px;
+  }
+  .feeds {
+    width: 320px;
+    margin-top: 70px;
+  }
+  .body {
+    margin-left: -10px;
+  }
 }
