@@ -16,7 +16,7 @@ export default function StoryBoard() {
       url: "https://instagram-scraper-api2.p.rapidapi.com/v1/followers",
       params: { username_or_id_or_url: username, url_embed_safe: 'true' },
       headers: {
-        "x-rapidapi-key": "8815efda9cmsha1db357d05ed5fbp1d7cf2jsn296270da6835",
+        "x-rapidapi-key": "4cbe213f84msh26c5c6ddc59e76ap10de30jsn686e4a4ffeb2",
         "x-rapidapi-host": "instagram-scraper-api2.p.rapidapi.com",
       },
     };
@@ -44,7 +44,7 @@ export default function StoryBoard() {
         url: `https://instagram-scraper-api2.p.rapidapi.com/v1/followers`,
         params: { username_or_id_or_url: user.id},
         headers: {
-          "x-rapidapi-key": "8815efda9cmsha1db357d05ed5fbp1d7cf2jsn296270da6835",
+          "x-rapidapi-key": "4cbe213f84msh26c5c6ddc59e76ap10de30jsn686e4a4ffeb2",
           "x-rapidapi-host": "instagram-scraper-api2.p.rapidapi.com",
         },
       };
