@@ -11,6 +11,11 @@
 
   margin: 0 auto;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 .nav-bar {
   height: 64px;

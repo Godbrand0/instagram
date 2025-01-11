@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <NavBar />
       <div className="body">
-        <div className="storyboard-contain">
+        <div className="main">
           <Story />
           <Posts />
         </div>
